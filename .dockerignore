@@ -35,5 +35,8 @@ FrameCapturer/*.sln
 FrameRecorder/
 FrameRecorder.meta
 
-Plugin/out
-.DS_Store
+.dockerignore
+linux.Dockerfile
+ScreenShots
+build_linux.sh
+FrameCapturer/Assets/UTJ/FrameCapturer/Plugins/x86_64/libfccore.so

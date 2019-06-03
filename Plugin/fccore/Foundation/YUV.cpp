@@ -8,7 +8,9 @@
     #pragma comment(lib, "yuv.lib")
 #endif
 
-
+#ifdef __linux__ 
+typedef uint8_t uint8;
+#endif
 // I420
 
 void I420Image::resize(int width, int height)
